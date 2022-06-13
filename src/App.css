@@ -1,0 +1,239 @@
+.App {
+  background-color: #103752;
+  min-height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+
+}
+
+.App-header {
+  background-color: #04B4EF;
+  padding: 0px 20px;
+  height: 65px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  align-items: center;
+  overflow-x: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.main-Content {
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+}
+
+.Signout-button {
+  height: 30px;
+  width: 85px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.Task-Card {
+  background-color: #D8DFE8;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 5px;
+  margin-right: 17px;
+  min-width: 270px;
+  box-shadow: 0px 0px 10px #1a171772;
+  min-height: 250px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.Task-Card-Header {
+  display: flex;
+  font-size: 19px;
+  font-weight: 700;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Task-Card-Header:hover {
+  opacity: 0.5;
+}
+
+.Task-Card-Header-Editing {
+  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 5px;
+  border: none;
+  margin-bottom: 5px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Task-Card-Header-Editing:hover {
+  opacity: 0.5;
+}
+
+.Task-Card-Footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .Task-Card-Footer:hover {
+  opacity: 0.6;
+} */
+
+.Delete-Task-Card-Button {
+  height: 22px;
+  width: 60px;
+  background: transparent;
+  border: 2px solid #E8B4B5;
+  border-radius: 3px;
+  margin-top: 15px;
+  align-self: center;
+}
+
+.Delete-Task-Card-Button:hover {
+  opacity: 0.5;
+}
+
+.Add-Task-Input {
+  /* background-color: transparent; */
+  height: 20px;
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #000000;
+  border-bottom: solid #04B4EF 1px;
+  padding: 3px 10px;
+  margin-top: 15px;
+}
+
+.Add-Task-Input:hover {
+  opacity: 0.5;
+}
+
+.Add-Task-Button {
+  font-size: larger;
+  background: transparent;
+  border: none;
+  margin: 5px;
+  width: 40px;
+}
+
+.Add-Task-Button:hover {
+  opacity: 0.5;
+}
+
+.Task-Card-Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  box-shadow: 0px 0px 5px #1a171772;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin: 0px 5px 10px 5px;
+  cursor: grab;
+  /* margin-bottom: 10px; */
+}
+
+.Task-Card-Item:focus {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  box-shadow: 0px 0px 5px #1a171772;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin: 0px 5px 10px 5px; */
+  cursor: grabbing;
+  /* margin-bottom: 10px; */
+}
+
+.Task-Card-Item:hover {
+  opacity: 0.8;
+}
+
+.Add-Task-Card-Button-Container {
+  display: flex;
+  font-size: larger;
+  margin: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.Delete-Task-Icon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.Delete-Task-Icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.Ok-Task-Icon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.Ok-Task-Icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.Edit-Task-Icon {
+  margin-left: auto;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.Edit-Task-Icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.Add-Task-Card-Button {
+  display: block;
+  height: 42px;
+  width: 42px;
+  background-color: #04B4EF;
+  border-radius: 50%;
+  box-shadow: 1px 2px #888888;
+  border: none;
+  opacity: 1;
+}
+
+.Add-Task-Card-Button:hover {
+  opacity: 0.5;
+}
+
+.dragged {
+  opacity: 0.5;
+  background: #04B4EF;
+}
