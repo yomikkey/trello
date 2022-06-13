@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import EditIcon from '../assets/pen.png';
 import DeleteIcon from '../assets/delete.png';
 import CheckIcon from '../assets/check.png';
@@ -24,7 +24,7 @@ function TaskListItem(props: TaskListItemProps) {
   return (
     <>
       {Items.map((TaskItem, index) => (
-        index == editMode ?
+        index === editMode ?
           <div 
             key={index} 
             className='Task-Card-Item'
