@@ -1,7 +1,7 @@
 # Trello 
 
-In the project used React and reactive component to create a checklist! 
-That can be added deleted modified! 
+The project used React and the reactive components to create a checklist! 
+That can be added deleted modified!
 
 ## Live Link
 
